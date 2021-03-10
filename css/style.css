@@ -1,0 +1,10 @@
+.homeCarousel {
+
+height:360px;
+}
+    
+.carousel-inner &gt; .item &gt; img {
+    
+height:360px;
+object-fit: contain;
+}
