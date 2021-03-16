@@ -7,12 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
 
   <title>Grow Big</title>
 
 </head>
 
 <body>
+
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #88d67ec0;">
       <div class="container-fluid">
@@ -69,12 +74,12 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark"></span>
+          <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev" id="preButton">
+            <span class="carousel-control-prev-icon bg-danger h-75 w-50"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon bg-dark"></span>
+            <span class="carousel-control-next-icon bg-danger h-75 w-50"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -83,41 +88,68 @@
 
     <p>Home</p>
 
-<div class="card mb-3">
-            <img src="images\card1.png" class="card-img-top" height="500" alt="Grow your own food">
-            <div class="card-body bg-success">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            </div>
+    <div class="card-deck">
+      <div class="card mb-3 border-danger">
+        <img src="images\card1.png" class="card-img-top" alt="Grow your own food">
+        <div class="card-body bg-success">
+          <h5 class="card-title">About Us</h5>
+          <p class="card-text">Grow Big is a dedicated to teaching everyone how to grow their own food. There are many
+            factors that determine how big your harvest is. We aim to simply that process with easy to follow
+            instructions</p>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-danger">
+        <img src="images\card2b.jpg" class="card-img-top" alt="strawberries">
+        <div class="card-body bg-success">
+          <h5 class="card-title">Shop</h5>
+          <p class="card-text">Come check out the shop to purchase locally grown produce or starter seeds.<br><a
+              href="shop.html">Click Here</p></a>
+        </div>
+      </div>
+
+      <div class="card mb-3 border-danger">
+        <img src="images\card3b.jpg" class="card-img-top" alt="Michgan growing zones">
+        <div class="card-body bg-success">
+          <h5 class="card-title">Growing Information</h5>
+          <p class="card-text">We provide growing information specifiaclly for the state of Michigan. We don't over
+            complicate the process. We provide simple easy to follow instructions that will increase your
+            harvests.<br><a href="growinginfo.html">Click Here</p></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="container">
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2  text-nowrap">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="growinginfo.html">Growing Info</a></li>
+            </ul>
           </div>
 
-          <div class="card mb-3">
-            <img src="images\card2.jpg" class="card-img-top" height="500" alt="strawberries">
-            <div class="card-body bg-success">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            </div>
+          <div class="col-sm-10 text-right">
+            <h5>Contact Us</h5>
+            <a role="button" class="btn btn-link" href="tel:+12065551234"><span class="fa phone-rotary"></span>
+              1-555-777-9311</a><br />
+            <a role="button" class="btn btn-link" href="mailto:info@growbigshop.com"><span
+                class="fa fa-envelope-o"></span>
+              info@growbigshop.com</a>
           </div>
-
-          <div class="card mb-3">
-            <img src="images\card3.jpg" class="card-img-top" height="500" alt="Michgan growing zones">
-            <div class="card-body bg-success">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-            </div>
-          </div>
-
-          <footer>
+        </div>
+      </div>
 
 
-          </footer>
-
-          <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-          <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-          <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
